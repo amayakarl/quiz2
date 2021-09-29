@@ -35,7 +35,7 @@ function validateEmail(email) {
     return re.test(email);
 }
 function validateMessage(message){
-    return (name.trim().length > 0)
+    return (message.trim().length > 0)
 }
 
 function showError($el, errorFor){
